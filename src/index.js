@@ -1,14 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
 import App from './App';
-import Smarthomes from './Smart-homes.png'
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <img src={Smarthomes} alt='Smart Home' />
     <App /> 
   </React.StrictMode>
 );
