@@ -6,10 +6,10 @@ const NavBar = () => {
         <nav>
             <div className='logo'>Welcome</div>
             <ul className='nav-links'>
-                <li><a>Home</a></li>
-                <li><a>Service</a></li>
-                <li><a>Product</a></li>
-                <li><a>Link</a></li>
+                <li>Home</li>
+                <li>Service</li>
+                <li>Product</li>
+                <li>Link</li>
                 </ul>
             </nav>
             
